@@ -8,3 +8,4 @@ image:#{cdn(site.base_url + '/images/products/eap/real-time_next_generation_html
 
 image:#{cdn(site.base_url + '/images/products/eap/managment_and_security_webinar.png')}[Use Management and Security for your Enterprise Applications, 161, 118, link=http://www.redhat.com/about/events-webinars/webinars/20140320-management-and-security-for-your-enterprise-applications] http://www.redhat.com/about/events-webinars/webinars/20140320-management-and-security-for-your-enterprise-applications[Use Management and Security for your Enterprise Applications]
 
+http://www.redhat.com/about/events-webinars/webinars/20140731-devops-and-java-ee-can-you-achieve-the-best-of-both-worlds[DevOps and Java EE—can you achieve the best of both worlds?]
