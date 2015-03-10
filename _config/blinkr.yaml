@@ -65,12 +65,42 @@ skips:
 #    # JDF-770
 #  - !ruby/regexp /^https:\/\/docs.jboss.org\/author\/display\/PLINK\/SAML\+Authenticators\+\%28Tomcat\%2CJBossAS\%29+/
 ignores:
+  - url: git@github.com:nodyn/nodyn.git #Not an error.
+  - url: http://in.relation.to/ #Not an error.
+  - url: https://console.developers.google.com #Not an error.
+  - url: http://svn.jboss.org/repos/tohu/ #Not an error.
+  - url: https://developer.jboss.org/en/products/fsw #Not an error
+  - url: https://developer.jboss.org/en/products/portal #Not an error
+  - url: https://developer.jboss.org/en/products/eap #Not an error
+  - url: https://developer.jboss.org/en/products/amq #Not an error
+  - url: https://developer.jboss.org/en/products/bpmsuite #Not an error
+  - url: https://developer.jboss.org/en/products/datagrid #Not an error
+  - url: https://developer.jboss.org/en/products/datavirt #Not an error
+  - url: https://developer.jboss.org/en/products/fuse #Not an error
+  - url: https://developer.jboss.org/en/products/brms #Not an error
+  - url: http://fabric8.io/ #Not an error
+  - url: https://developer.jboss.org/en/products/webserver #Not an error
+  - url: https://www.innovateuk.org #Not an error
+  - url: http://community.jboss.org/community/modeshape #Not an error
+  - url: https://developer.jboss.org/en/products/devstudio #Not an error
+  - url: http://fabric8.io/community/ #Not an error
+  - url: http://fabric8.io/docs/ #Not an error
+  - url: http://fabric8.io/getstarted/ #Not an error
+  - url: http://<app-name>-<domain-name>.rhcloud.com #Not an error just for reference on loading on openshift
+  - url: https://api.github.com/repos/weimeilin79/homeloan-part3/zipball/master #Not an error
+  - url: https://api.github.com/repos/kpeeples/jboss-a-mq-websockets-demo/zipball/master #Not an error
+  - url: https://api.github.com/repos/FuseByExample/kie-remote-example/zipball/master #Not an error
+  - url: https://api.github.com/repos/weimeilin79/homeloan-part2/zipball/master #Not an error
+  - url: https://api.github.com/repos/FuseByExample/external-mq-fabric-client/zipball/master #Not an error
+  - url: https://api.github.com/repos/weimeilin79/homeloan-part1/zipball/master #Not an error
+  - url: https://api.github.com/repos/javaee-samples/javaee7-samples/zipball/master #Not an error
+  - url: https://api.github.com/repos/kpeeples/jboss-fuse-websockets-demo/zipball/master #Not an error
+  - url: https://github.com/jbossdemocentral/fuse-components-salesforce #Not an error
   - url: !ruby/regexp /^https?:\/\/dcp(beta-searchisko\.rhcloud\.com|\.jboss\.org)\/v1\/rest/
-#  - url: git://github.com/snowdrop/snowdrop.git #JIRA Issue SNOWDROP-118 - Anonymous Git ---- Still Outstanding
-#  - url: git@github.com:belaban/JGroups.git #JIRA Issue JGRP-1866 - Committer Git ---- Still Outstanding ---- Marked resolved, needs to be fixed
-#  - url: git@github.com:nodyn/nodyn.git #Not an error.
-#  - url: http://ci.infinispan.org/ #Link works correctly
-#  - url: http://community.jboss.org/en/gatein #Can't replicate the error
+  - url: git://github.com/snowdrop/snowdrop.git #JIRA Issue SNOWDROP-118 - Anonymous Git ---- Still Outstanding
+  - url: git@github.com:belaban/JGroups.git #JIRA Issue JGRP-1866 - Committer Git ---- Still Outstanding ---- Marked resolved, needs to be fixed
+#  - url: http://ci.infinispan.org/ #Not an error
+#  - url: http://community.jboss.org/en/gatein #Not an error
 #  - url: http://community.jboss.org/en/jbossas/picketbox?view=discussions #JIRA Issue SECURITY-852 (Picketbox) - User Forum, Community ----- Still Outstanding
 #  - url: http://facebook.com/kenneth.peeples?rel=author #Link does not appear on the page
 #  - url: http://fisheye.jboss.com/browse/JBossAS/projects/jboss-jca/trunk/ #Not on JIRA?
@@ -126,33 +156,12 @@ ignores:
 #  - url: https://docs.google.com/spreadsheets/d/1QbjVeU9avP8hcnaruiLtuanQVpkdClIYtgFSmaC_K9c/edit #302 moved, but not actually an error.
 #  - url: https://issues.jboss.org/browse/WFLY #302 moved, but not actually an error.
 #  - url: https://docs.google.com/spreadsheets/d/1QdE32458GN8v-sDGOqoBx5RJ3X44P_W-umxsCHMxL0g/edit?usp=sharing #302 moved, but not actually an error.
-#  - url: http://in.relation.to/ #Not an error.
 #  - url: http://overlord.jboss.org/issues #DEVELOPER-1140.
 #  - url: http://overlord.jboss.org/documentation #DEVELOPER-1140.
 #  - url: http://overlord.jboss.org/downloads #DEVELOPER-1140.
-#  - url: https://console.developers.google.com #Not an error.
-#  - url: http://svn.jboss.org/repos/tohu/ #Not an error.
-#  - url: https://developer.jboss.org/en/products/fsw #Not an error
-#  - url: https://developer.jboss.org/en/products/portal #Not an error
-#  - url: https://developer.jboss.org/en/products/eap #Not an error
-#  - url: https://developer.jboss.org/en/products/amq #Not an error
-#  - url: https://developer.jboss.org/en/products/bpmsuite #Not an error
-#  - url: https://developer.jboss.org/en/products/datagrid #Not an error
-#  - url: https://developer.jboss.org/en/products/datavirt #Not an error
-#  - url: https://developer.jboss.org/en/products/fuse #Not an error
-#  - url: https://developer.jboss.org/en/products/brms #Not an error
-#  - url: http://fabric8.io/ #Not an error
-#  - url: https://developer.jboss.org/en/products/webserver #Not an error
-#  - url: https://www.innovateuk.org #Not an error
-#  - url: http://community.jboss.org/community/modeshape #Not an error
-#  - url: https://developer.jboss.org/en/products/devstudio #Not an error
 #  - url: http://planet.jboss.org/post/open_source_conference_amsterdam_2013_jboss_integration_bpm_together_with_a_zeppelin_nemo_fish0 #DEVELOPER-1154
-#  - url: http://fabric8.io/community/ #Not an error
-#  - url: http://fabric8.io/docs/ #Not an error
-#  - url: http://fabric8.io/getstarted/ #Not an error
 #  - url: https://github.com/jboss-developer/jboss-eap-quickstarts/tree/master/numberguess #JDF-779
 #  - url: https://github.com/jboss-developer/jboss-sandbox-quickstarts/fork_select #JDF-778
-#  - url: http://<app-name>-<domain-name>.rhcloud.com #Not an error just for reference on loading on openshift
 #  - url: http://ci.motd.kr #Issue 3257 github repo https://github.com/netty/netty/issues/3257
 #  - url: https://github.com/jboss-developer/jboss-eap-quickstarts/fork_select #JDF-770
 #  - url: https://devstudio.jboss.com/central/install?connectors=org.jboss.tools.aerogear.hybrid #JDF-791
@@ -181,15 +190,6 @@ ignores:
   - url: https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Web_Server/2/epub/2.0.0_Release_Notes/JBoss_Enterprise_Web_Server-2-2.0.0_Release_Notes-en-US.epub #DEVELOPER-1253
   - url: https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Web_Server/2/pdf/2.0.0_Release_Notes/JBoss_Enterprise_Web_Server-2-2.0.0_Release_Notes-en-US.pdf #DEVELOPER-1253
   - url: https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Web_Server/2/pdf/Installation_Guide/JBoss_Enterprise_Web_Server-2-Installation_Guide-en-US.pdf #DEVELOPER-1253
-  - url: https://api.github.com/repos/weimeilin79/homeloan-part3/zipball/master #Not an error
-  - url: https://api.github.com/repos/kpeeples/jboss-a-mq-websockets-demo/zipball/master #Not an error
-  - url: https://api.github.com/repos/FuseByExample/kie-remote-example/zipball/master #Not an error
-  - url: https://api.github.com/repos/weimeilin79/homeloan-part2/zipball/master #Not an error
-  - url: https://api.github.com/repos/FuseByExample/external-mq-fabric-client/zipball/master #Not an error
-  - url: https://api.github.com/repos/weimeilin79/homeloan-part1/zipball/master #Not an error
-  - url: https://api.github.com/repos/javaee-samples/javaee7-samples/zipball/master #Not an error
-  - url: https://api.github.com/repos/kpeeples/jboss-fuse-websockets-demo/zipball/master #Not an error
-  - url: https://github.com/jbossdemocentral/fuse-components-salesforce #Not an error
   - url: http://planet.jboss.org/post/telscale_smsc_gateway_sending_messages_from_jss7_to_smpp #DEVELOPER-1254
   - url: http://planet.jboss.org/post/building_ussd_mobile_application_with_telscale_restcomm_in_less_than_10_mins #DEVELOPER-1254
   - url: http://planet.jboss.org/post/applicata_jn_test_suite_platform_catches_a_bug_in_restcomm_days_before_mwc_2015 #DEVELOPER-1254
