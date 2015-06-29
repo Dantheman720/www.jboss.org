@@ -69,7 +69,7 @@ downloads:
         name: WebUI (Developer Preview)
         artifacts:
           war_(38mb):
-            url: http://downloads.jboss.org/datavirt/6.1.0/PREVIEW-DataVirtWebUI-03Apr2015.war
+            url: https://www.dropbox.com/s/gelmwbzpc2akr1c/PREVIEW-DataVirtWebUI-11Jun2015.war?dl=0
           install_instructions:
             url: http://downloads.jboss.org/datavirt/install.txt
   6.1.0.Beta:
